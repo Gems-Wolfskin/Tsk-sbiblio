@@ -270,15 +270,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 ## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
-## 👨‍💻 Auteur
-
-**Tsk's BiblioTech Team**
-
-- Website: [www.tsksbibliotech.com](https://www.tsksbibliotech.com)
-- Email: adidomahukpeou@gmail.com
-- WhatsApp: +229 01 52 27 11 98
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails
 
 ## 🙏 Remerciements
 
@@ -291,3 +283,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 **📚 Fait avec ❤️ pour l'éducation en Afrique**
 
 ```
+
