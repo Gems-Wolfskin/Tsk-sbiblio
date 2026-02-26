@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="»UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <title>Tsk’s BiblioTech – Votre Bibliothèque en Ligne</title>
+  <link rel="stylesheet" href="styles2.css">
+  <scripts src="..\..\..\Scripts.js" defer></scripts>
+  <link rel="icon"  type="image/png" href="images\favicon.png">
+  <meta name="description" content="Tsk’s BiblioTech est une bibliothèque en ligne qui propose une vaste collection de livres électroniques de tous genre pour les élèves et les universitaires d’Afrique de l’ouest et au-delà. Découvrez nos ressources académiques de qualité !">
+  <meta property="og :title" content="Tsk’s BiblioTech">
+  <meta property="og :description" content="Tsk’s BiblioTech est une bibliothèque en ligne qui propose une vaste collection de livres électroniques de tout genre pour les élèves et les universitaires d’Afrique de l’ouest et au-delà.">
+  <meta property="og :image" content="image.jpg">
+</head>
+
+<body>
+
+  <header>
+ 
+    <div class="container">
+       <img src="..\..\..\images\Logo.jpeg" alt="Logo BiblioTech" class="logo">
+      <div id="branding">
+        <h1><span class="highlight">Tsk’s</span> BiblioTech</h1>
+        <p class="tagline">Votre portail vers le savoir</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="..\..\..\indexb.htm">Accueil</a></li>
+          <li><a href="..\..\..\Librairie.htm">Librairie</a></li>
+          <li><a href="..\..\..\Blog.htm">Blog</a></li>
+          <li><a href="..\..\..\À Propos.htm">À propos</a></li>
+          <li><a href="..\..\..\Contacts.htm">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+        <div class="search-section">
+          <h3>Rechercher un livre</h3>
+          <form class="search-form" action="#" method="GET">
+            <input type="search" name="search" placeholder="Titre, auteur, mot-clé, ISBN…"  required>
+            <button type="submit" class="btn btn-primary"> Rechercher</button>
+          </form>
+
+          <div class="search-filters">
+            <label>
+              <input type="checkbox" name="filter" value="title"> Titre
+            </label>
+            <label>
+              <input type="checkbox" name="filter" value="auteur"> Auteur
+            </label>
+            <label>
+              <input type="checkbox" name="filter" value="category"> Catégorie
+            </label>
+          </div>
+        </div>
+
+  <div class="livres-Poésie">
+  <div class="livre">
+    <img src="images2\Livre1.png" alt="Image de couverture du livre 1">
+    <h2>Livre 1</h2>
+    <p>Découvrez: Le secret des esprits curieux, des autodidactes efficace: pose des questions inttéligentes pour apprendre plus vite, retenir mieux pour transformer ta progression quotidienne en succès irréversible.</p>
+ <div class="book-actions">
+      <a href="#" class="btn btn-small">Voir détails</a>
+      <button class="btn btn-small btn-secondary btn-favorite" data-book-id="book-1">
+        🤍 Favoris
+      </button>
+       <button class="btn-avoir-livre"><a href="https://exemple.com/acheter-livre1" target="_blank">📘 L' Obtenir </a></button>
+    </div>
+  </div>
+ 
+  <div class="livre">
+    <img src="images2\Livre1.png" alt="Image de couverture du livre 2">
+    <h2>Livre 2</h2>
+    <p>Découvrez: Le secret des esprits curieux, des autodidactes efficace: pose des questions inttéligentes pour apprendre plus vite, retenir mieux pour transformer ta progression quotidienne en succès irréversible.</p>
+   
+ <div class="book-actions">
+      <a href="#" class="btn btn-small">Voir détails</a>
+      <button class="btn btn-small btn-secondary btn-favorite" data-book-id="book-2">
+        🤍 Favoris
+      </button>
+       <button class="btn-avoir-livre"><a href="https://exemple.com/acheter-livre2" target="_blank">📘L' Obtenir </a></button>
+    </div>
+  </div>
+
+   <div class="livre">
+    <img src="images2\Livre1.png" alt="Image de couverture du livre 3">
+    <h2>Livre 3</h2>
+    <p>Découvrez: Le secret des esprits curieux, des autodidactes efficace: pose des questions inttéligentes pour apprendre plus vite, retenir mieux pour transformer ta progression quotidienne en succès irréversible.</p>
+   
+ <div class="book-actions">
+      <a href="#" class="btn btn-small">Voir détails</a>
+      <button class="btn btn-small btn-secondary btn-favorite" data-book-id="book-3">
+        🤍 Favoris
+      </button>
+       <button class="btn-avoir-livre"><a href="https://exemple.com/acheter-livre3" target="_blank">📘 L' Obtenir </a></button>
+    </div>
+  </div>
+ 
+   <div class="livre">
+    <img src="images2\Livre1.png" alt="Image de couverture du livre 4">
+    <h2>Livre 1</h2>
+    <p>Découvrez: Le secret des esprits curieux, des autodidactes efficace: pose des questions inttéligentes pour apprendre plus vite, retenir mieux pour transformer ta progression quotidienne en succès irréversible.</p>
+   
+ <div class="book-actions">
+      <a href="#" class="btn btn-small">Voir détails</a>
+      <button class="btn btn-small btn-secondary btn-favorite" data-book-id="book-4">
+        🤍 Favoris
+      </button>
+       <button class="btn-avoir-livre"><a href="https://exemple.com/acheter-livre1" target="_blank">📘 L' Obtenir</a></button>
+    </div>
+  </div>
+
+  
+
+
+
+<!-- ... -->
+
+<style>
+.livres-programation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.livre {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.livre img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.livre h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.livre p {
+  font-size: 14px;
+  color: #666;
+}
+
+.btn-voir-livre, .btn-avoir-livre {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-voir-livre a, .btn-avoir-livre a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-voir-livre {
+  background-color: #4CAF50;
+}
+
+.btn-avoir-livre {
+  background-color: #03A9F4;
+}
+</style>
+
